@@ -31,3 +31,11 @@
   font-weight: bold;
   font-weight: 550;
 }
+.arrow-left{
+  margin-right: 10px;
+  cursor: pointer;
+}
+.arrow-right{
+  margin-left: 10px;
+  cursor: pointer;
+}
