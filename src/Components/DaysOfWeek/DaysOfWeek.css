@@ -1,0 +1,10 @@
+.days-of-week table {
+  width: 100%;
+}
+.days {
+  text-align: right;
+  margin-left: 200px;
+}
+.days-of-week .days {
+  margin-left: 200px;
+}

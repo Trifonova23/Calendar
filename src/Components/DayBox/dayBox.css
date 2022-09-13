@@ -1,0 +1,29 @@
+.day-box {
+  width: calc((100% - 14px) / 7);
+  height: 70px;
+  border: 1px solid rgb(179, 35, 109);
+  background-color: rgb(247, 247, 247);
+}
+.day-box:hover {
+  background-color: rgb(252, 186, 220);
+}
+
+.current-date {
+  margin-top: 5px;
+  font-weight: bold;
+  color: rgb(214, 14, 144);
+  text-align: right;
+  margin-right: 20px;
+}
+.event-of-the-day button {
+  width: 60%;
+  height: 16px;
+  text-align: left;
+  border: 1px solid rgb(214, 14, 144);
+}
+.event-of-the-day button:hover {
+  background-color: rgb(220, 116, 168);
+}
+.day-box-events .current-date {
+  border-radius: 1px solid rgb(214, 14, 144);
+}
