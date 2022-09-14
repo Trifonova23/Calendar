@@ -1,10 +1,18 @@
-.days-of-week table {
+.days-of-week .days-wrapper {
   width: 100%;
-}
-.days {
   text-align: right;
-  margin-left: 200px;
+  display: flex;
+  font-family: Georgia;
+  font-weight: bold;
 }
-.days-of-week .days {
-  margin-left: 200px;
+
+.days-of-week .days-wrapper {
+  color: #585a58;
+}
+.days-of-week .days-wrapper .day {
+  width: calc(100% / 7);
+}
+
+.days-of-week .days-wrapper .day p {
+  margin-right: 15px;
 }
