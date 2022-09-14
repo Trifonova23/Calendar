@@ -5,14 +5,12 @@
   font-family: Georgia;
   font-weight: bold;
 }
-
 .days-of-week .days-wrapper {
   color: #585a58;
 }
 .days-of-week .days-wrapper .day {
   width: calc(100% / 7);
 }
-
 .days-of-week .days-wrapper .day p {
   margin-right: 15px;
 }

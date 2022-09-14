@@ -33,8 +33,6 @@ let daysFromTheNextMonth = 42 - allDaysInTheMonth - daysToShowFromPreviousMonth
     days.push(<DayBox isCurrentMonth={false} numberOfTheDay={previousDayFormattedDay} eventsOfTheDay={currentDayEvent} key={x+'daysFromPrevMonth'}/> );
   }
 
-
-
   // // Current month boxes
   for (let i = 0; i < allDaysInTheMonth; i++) {
     let currentDayIsToday = Number(moment().format('D')) === i + 1 && moment().format('MM') === currentDay.format('MM')
@@ -51,8 +49,6 @@ let daysFromTheNextMonth = 42 - allDaysInTheMonth - daysToShowFromPreviousMonth
     }
     days.push(<DayBox isCurrentMonth={true} numberOfTheDay={currentIterationOfTheCurrentMonthFormattedDD} isCurrentDay={currentDayIsToday} eventsOfTheDay={currentDayEvent}  key={i}/> );
   }
-  
-
 
   // // Next month boxes
   for (let t = 0; t <= daysFromTheNextMonth - 1; t++) {
