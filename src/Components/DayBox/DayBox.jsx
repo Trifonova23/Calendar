@@ -5,11 +5,18 @@ export const DayBox = ( {numberOfTheDay, eventsOfTheDay,isCurrentDay, isCurrentM
   return (
      <div className='day-box'>
         <div className='day-box-events'>
-        { isCurrentDay ? 
+        { 
+            isCurrentDay ? 
             <p className= {"current-date " + (isCurrentMonth === true ? 'current-month' : "")} > <span className='current'>{ numberOfTheDay }</span></p> :
             <p className= {"current-date " + (isCurrentMonth === true ? 'current-month' : "")} ><span>{ numberOfTheDay }</span></p>
          }
-            <p className='event-of-the-day'> <button> {eventsOfTheDay} </button> </p>
+         <p className='event-of-the-day'> 
+         {
+            eventsOfTheDay.eventName ? 
+            <button onClick={()=> alert(eventsOfTheDay.moreInfo)} > {eventsOfTheDay.eventName} </button>  :
+            ''
+         }
+         </p>
         
         </div>
      </div>

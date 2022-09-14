@@ -1,0 +1,45 @@
+{
+    "data":[
+        {
+            "eventName": "Busy",
+            "date": "2022-09-23",  
+            "moreInfo": "My birthday partyyyyyy"
+        },  
+        {
+            "eventName": "Busy",
+            "date": "2022-09-24",  
+            "moreInfo": "Will be out of the town"
+        }, 
+        {
+            "eventName": "Busy",
+            "date": "2022-09-25",  
+            "moreInfo": "Will be out of the town"
+        },
+        {
+            "eventName": "Busy",
+            "date": "2022-09-26",  
+            "moreInfo": "Will be out of the town"
+        },
+        {
+            "eventName": "Available Date for interview",
+            "date": "2022-09-27",  
+            "moreInfo": "Email for contacts: nataliya.st.trifonova@gmail.com"
+        }, 
+        {
+            "eventName": "Available Date for interview",
+            "date": "2022-09-28",  
+            "moreInfo": "Email for contacts: nataliya.st.trifonova@gmail.com"
+        }, 
+        {
+            "eventName": "Available Date for interview",
+            "date": "2022-09-29",  
+            "moreInfo": "Email for contacts: nataliya.st.trifonova@gmail.com"
+        }, 
+        {
+            "eventName": "Available Date for interview",
+            "date": "2022-09-30",  
+            "moreInfo": "Email for contacts: nataliya.st.trifonova@gmail.com"
+        }
+        
+    ]
+}

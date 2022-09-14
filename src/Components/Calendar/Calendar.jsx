@@ -8,14 +8,10 @@ import "./Calendar.css"
 export const Calendar = () => {
 
   const [currentDay, setCurrentDay] = useState(moment())
-  
-  let currentMonth = currentDay.format('MMMM')
-  let currentYear = currentDay.format('YYYY')
 
   return (
      <div>
-        {console.log('rerender', currentDay)}
-         <CalendarHeader currentDay={currentDay} month={currentMonth} year={currentYear} updateMonth={(newMonth)=>setCurrentDay(moment(newMonth))}/> 
+         <CalendarHeader currentDay={currentDay}  updateMonth={(newMonth)=>setCurrentDay(moment(newMonth))}/> 
          <DaysOfWeek/>
          <DaysWrapper currentDay={currentDay}/>
      </div>

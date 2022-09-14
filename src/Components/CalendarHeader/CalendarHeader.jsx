@@ -2,7 +2,11 @@ import React from 'react'
 import "./CalendarHeader.css";
 import moment from 'moment'
 
-export const CalendarHeader = ({currentDay, month, year,updateMonth}) => {
+export const CalendarHeader = ({currentDay,updateMonth}) => {
+
+  let month = currentDay.format('MMMM')
+  let year = currentDay.format('YYYY')
+
   return (   
     <div className='header-information'>
         <div className='current-month-and-year'>
