@@ -1,4 +1,4 @@
-# Calendar application for Strypes
+# Calendar application
 
 Calendar application where you can go through different months and to check events on each day.
 
